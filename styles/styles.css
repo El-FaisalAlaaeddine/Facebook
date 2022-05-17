@@ -198,7 +198,9 @@ display: flex;
   margin: 40px 0;
   text-align: center;
 }
-
+.h3{
+    color: #1877f2;
+}
 .first-row{
     width: 100%;
 }
@@ -220,6 +222,8 @@ display: flex;
     font-weight: bold;
     padding-top: 7px;
 }
+
+/*comment */
 .third-lang{
     list-style: none;
     display: flex;
