@@ -238,6 +238,11 @@ p{
     cursor: pointer;
     font-size: small;
 }
+.plus-sign{
+    padding: 1px;
+    cursor: pointer;
+    
+}
 
 .second-lang,.fourth-lang{
     list-style: none;
@@ -248,6 +253,7 @@ p{
     font-weight: bold;
     padding-top: 7px;
 }
+
 
 /*comment */
 .third-lang{
@@ -299,11 +305,11 @@ p{
     .list{
         margin-right:auto;
         padding-right: 2px;
+        font-size: small;
     }
 
     .first-languages,.second-lang,.third-lang,.fourth-lang{
         display: flex;
-        
         flex-wrap: wrap;
         
     }
