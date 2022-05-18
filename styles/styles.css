@@ -126,6 +126,13 @@
     border-radius: 10px;
     border: 1px solid #dddfe2;
 }
+.input-1:focus,.input-2:focus{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border: 1px solid #2071af;
+}
   
 
 .input-2{
@@ -269,12 +276,15 @@ p{
     .description{
         font-size: 20px;
         margin-left: 40px;
+        display: flex;
     }
     .top-left-column,.right-section{
         margin-left: 70px;
     }
+  
     .right-section{
         margin-left: 20px;
+       
     }
 
     .first-row, .content-2, .section-2,.content-2{
