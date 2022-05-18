@@ -16,12 +16,14 @@
     background-repeat: initial;
     background-clip: initial;
     background-color: rgb(255, 255, 255);
+    background-position: center;
     color: #1c1e21;
     direction: ltr;
 }
 .global-div{
     position: relative;
     zoom: 1;
+    
 }
 
 .first-content{
@@ -124,6 +126,8 @@
     border-radius: 10px;
     border: 1px solid #dddfe2;
 }
+  
+
 .input-2{
     margin-top: 20px;
 }
@@ -249,7 +253,7 @@ p{
     padding-top: 7px;
 }
 /* Media Queries*/
-@media (max-width:900px){
+@media (max-width:988px){
     
     .global-div{
         margin-top: 0px;
@@ -258,19 +262,19 @@ p{
     }
     .actual-content{
         flex-direction: column;
-        display: flex;
+        display:inline;
         
     }
     
     .description{
         font-size: 20px;
-        margin-left: 30px;
+        margin-left: 40px;
     }
     .top-left-column,.right-section{
-        margin-left: 60px;
+        margin-left: 70px;
     }
     .right-section{
-        margin-left: 16px;
+        margin-left: 20px;
     }
 
     .first-row, .content-2, .section-2,.content-2{
