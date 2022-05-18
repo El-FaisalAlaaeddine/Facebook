@@ -25,6 +25,7 @@
     zoom: 1;
     
 }
+/* First container*/
 
 .first-content{
     padding-bottom: 112px;
@@ -75,6 +76,8 @@
     height: 106px;
     
 }
+/* Description uner facebook*/
+
 .description{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 28px;
@@ -85,6 +88,8 @@
     display: inline-block;
     letter-spacing: normal;
 }
+
+/* Table*/
 .table{
     background-color: white;
     border-radius: 5px;
@@ -202,7 +207,7 @@
 p{
     margin-top: 30px;
 }
-
+/* Footer*/
 .first-languages{
  list-style: none;
   display: flex;
@@ -255,7 +260,7 @@ p{
 }
 
 
-/*comment */
+
 .third-lang{
     list-style: none;
     display: flex;
@@ -271,6 +276,7 @@ p{
     .global-div{
         margin-top: 0px;
         display: flex;
+        align-items: center;
         
     }
     .actual-content{
